@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>Error 403 - Access denied!</title>
+<title>403 - <?=$lang['403_TITLE']?></title>
 
 <style id="" media="all">/* cyrillic-ext */
 @font-face {
@@ -191,10 +191,12 @@ body {
 			<div class="notfound-404">
 				<h1>403</h1>
 				</div>
-					<h2>Oops! Access denied!</h2>
-					<p>Sorry but the page you are looking for does not exist, have been removed. name changed or is temporarily unavailable</p>
+					<h2><?=$lang['403_TITLE']?></h2>
+					<p><?=$lang['ERROR']?></p>
 					<p><?=error_get_last()?></p>
-					<a href="<?=$fn?>">Go To Homepage</a>
+					<a href="<?=$fn?>">
+						<?=$lang['GO_INDEX']?>
+					</a>
 				</div>
 			</div>
 		</div>

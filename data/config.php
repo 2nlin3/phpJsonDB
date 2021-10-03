@@ -11,5 +11,5 @@ return [
 	'seo'		=> 0,
 	'home'		=> 'index',
 	'fn'		=> '/',
-	'language'	=> 'RU',
+	'language'	=> 'EN',
 ];

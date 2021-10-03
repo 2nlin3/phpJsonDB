@@ -70,9 +70,10 @@ class View
 		http_response_code($code);
 		$path = 'template/views/errors/'.$code.'.php';
 
-		if (file_exists($path))
+		if(file_exists($path))
 		{
 			$cfg = require 'data/config.php';
+			$lang = require 'data/language/' . $cfg['language'] . '/error.php';
 			$fn = $cfg['fn'];
 			require $path;
 		}

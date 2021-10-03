@@ -191,10 +191,12 @@ body {
 			<div class="notfound-404">
 				<h1>404</h1>
 				</div>
-					<h2>Oops! This Page Could Not Be Found</h2>
-					<p>Sorry but the page you are looking for does not exist, have been removed. name changed or is temporarily unavailable</p>
+					<h2><?=$lang['404_TITLE']?></h2>
+					<p><?=$lang['ERROR']?></p>
 					<p><?=error_get_last()?></p>
-					<a href="#">Go To Homepage</a>
+					<a href="<?=$fn?>">
+						<?=$lang['GO_INDEX']?>
+					</a>
 				</div>
 			</div>
 		</div>

@@ -11,5 +11,11 @@
         "salt": "6159b0d3c07a3",
         "email": "simple2@localhost",
         "name": "\u0412\u0438\u0442\u0430\u043b\u044f"
+    },
+    "admin1": {
+        "password": "6c3376abcd1df4c9ba5bdc75a96e206d",
+        "salt": "615a187807e63",
+        "email": "test@localhost.com",
+        "name": "\u0412\u0438\u0442\u0430\u043b\u044f"
     }
 }

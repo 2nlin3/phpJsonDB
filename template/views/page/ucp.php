@@ -30,7 +30,7 @@
 		</div>
 		<div class="card-footer">
 			<div class="d-flex justify-content-center links">
-				©копирайт
+				© <?=$this->lang['COPY']?>
 			</div>
 		</div>
 	</div>

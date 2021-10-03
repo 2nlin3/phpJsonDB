@@ -1,7 +1,7 @@
 <div class="d-flex justify-content-center h-100">
 	<div class="card" style="height:410px;">
 		<div class="card-header">
-			<h3>Регистрация</h3>
+			<h3><?=$this->lang['RUN_REGISTER']?></h3>
 			<div class="d-flex justify-content-end social_icon">
 				<a href="https://www.facebook.com/manaogroup/"><span><i class="fab fa-facebook-square"></i></span></a>
 				<span><i class="fab fa-google-plus-square"></i></span>
@@ -16,20 +16,20 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"><i class="fas fa-user"></i></span>
 					</div>
-					<input form="register_form" type="text" id="formLogin" name="login"  value="" class="form-control" placeholder="Логин для входа" autocomplete="username" onchange="validateForm(this.id, this.value, 'login');" data-placement="right">
+					<input form="register_form" type="text" id="formLogin" name="login"  value="" class="form-control" placeholder="<?=$this->lang['LOGIN_ENTER']?>" autocomplete="username" onchange="validateForm(this.id, this.value, 'login');" data-placement="right">
 					
 				</div>
 				<div class="input-group form-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"><i class="fas fa-key"></i></span>
 					</div>
-					<input form="register_form" id="userPass" type="password" name="password" class="form-control" placeholder="Пароль" autocomplete="current-password" onchange="validateForm(this.id, this.value, 'password');" data-placement="right">
+					<input form="register_form" id="userPass" type="password" name="password" class="form-control" placeholder="<?=$this->lang['PASSWORD']?>" autocomplete="current-password" onchange="validateForm(this.id, this.value, 'password');" data-placement="right">
 				</div>
 				<div class="input-group form-group">
 					<div class="input-group-prepend">
 						<span class="input-group-text"><i class="fas fa-key"></i></span>
 					</div>
-					<input form="register_form" type="password" id="formConfirm" name="confirm_password" class="form-control" placeholder="Повтрите пароль" autocomplete="current-password" onchange="validateForm(this.id, this.value, 'confirm_password', 'confirm');" data-placement="right">
+					<input form="register_form" type="password" id="formConfirm" name="confirm_password" class="form-control" placeholder="<?=$this->lang['PASSWORD2']?>" autocomplete="current-password" onchange="validateForm(this.id, this.value, 'confirm_password', 'confirm');" data-placement="right">
 				</div>
 				<div class="input-group form-group">
 					<div class="input-group-prepend">
@@ -41,13 +41,15 @@
 					<div class="input-group-prepend">
 						<span class="input-group-text"><i class="fas fa-user"></i></span>
 					</div>
-					<input form="register_form" type="text" id="formName" name="name" class="form-control" placeholder="Ваше имя" onchange="validateForm(this.id, this.value, 'name');" data-placement="right">
+					<input form="register_form" type="text" id="formName" name="name" class="form-control" placeholder="<?=$this->lang['YOU_NAME']?>" onchange="validateForm(this.id, this.value, 'name');" data-placement="right">
 				</div>
 				<div class="form-group">
 					<div class="float-left align-items-center remember pt-2 pl-2">
-						У вас ест аккаунт? <a href="<?=$fn?>?page=login">Войти</a>
+						<?=$this->lang['NOT_EXIST']?> <a href="<?=$fn?>?page=login">
+							<?=$this->lang['SIGNIN']?>
+						</a>
 					</div>
-					<input form="register_form" id="formSender" type="submit" value="Отправить" class="btn float-right login_btn" data-placement="right">
+					<input form="register_form" id="formSender" type="submit" value="<?=$this->lang['RUN_REGISTER']?>" class="btn float-right login_btn" data-placement="right">
 				</div>
 			</form>
 		</div>

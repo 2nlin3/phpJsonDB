@@ -42,7 +42,7 @@ class AjaxController extends Controller
 				$_SESSION['login'] = $login;
 				$_SESSION['authorize']['id'] = $login;
 		
-				$msg = 'Успешная авторизация';
+				$msg = $this->lang['GOOD_LOGIN'];
 				$page_update = $this->cfg['fn'] . '?page=ucp';
 			}
 			else
@@ -180,7 +180,5 @@ class AjaxController extends Controller
 
 		$this->view->renderAjax($array);
 	}
-
-
 
 }

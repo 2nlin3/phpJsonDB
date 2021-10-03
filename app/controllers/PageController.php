@@ -17,7 +17,7 @@ class PageController extends Controller {
 			'onlyIndex' => true,
 		];
 
-		$this->view->render('Главная страница', $vars);
+		$this->view->render($this->lang['INDEX'], $vars);
 	}
 
 	public function errorAction() {
@@ -43,7 +43,7 @@ class PageController extends Controller {
 			'fn' => $fn,
 		];
 
-		$this->view->render('Успешная регистрация', $vars);
+		$this->view->render($this->lang['GOOD_REG'], $vars);
 	}
 
 	public function ucpAction()
@@ -58,7 +58,7 @@ class PageController extends Controller {
 			'fn' => $fn,
 		];
 
-		$this->view->render('Панель управления', $vars);
+		$this->view->render($this->lang['UCP'], $vars);
 	}
 
 	public function loginAction() {
@@ -71,7 +71,7 @@ class PageController extends Controller {
 			'fn' => $fn,
 		];
 
-		$this->view->render('Страница авторизации', $vars);
+		$this->view->render($this->lang['RUN_LOGIN'], $vars);
 	}
 
 	public function registerAction() {
@@ -84,7 +84,7 @@ class PageController extends Controller {
 			'fn' => $fn,
 		];
 
-		$this->view->render('Страница регистрации', $vars);
+		$this->view->render($this->lang['RUN_REGISTER'], $vars);
 	}
 
 	public function indexRender($title, $vars = [])
