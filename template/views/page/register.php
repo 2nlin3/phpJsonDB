@@ -49,7 +49,7 @@
 							<?=$this->lang['SIGNIN']?>
 						</a>
 					</div>
-					<input form="register_form" id="formSender" type="submit" value="<?=$this->lang['RUN_REGISTER']?>" class="btn float-right login_btn" data-placement="right">
+					<input form="register_form" id="formSender" type="submit" value="<?=$this->lang['LOGIN']?>" class="btn float-right login_btn" data-placement="right">
 				</div>
 			</form>
 		</div>

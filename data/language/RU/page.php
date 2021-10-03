@@ -23,5 +23,5 @@ return [
 	'LOGIN_ENTER'	=> 'Логин для входа',
 	'YOU_NAME'		=> 'Ваше имя',
 	'NOT_EXIST'		=> 'У вас есть аккаунт?',
-	'COPY'			=> 'Копирайт',
+	'COPY'			=> 'Копирайт <a href="https://github.com/2nlin3/phpMVCjsonDB">phpMVCjsonDB</a>',
 ];

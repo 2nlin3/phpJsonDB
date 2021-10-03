@@ -19,9 +19,9 @@ return [
 	'PASSWORD'		=> 'Password',
 	'PASSWORD2'		=> 'Repeat the password',
 	'RAM_USER'		=> 'Remember me',
-	'NOT_USER'		=> 'Don`t you have an account?',
-	'LOGIN_ENTER'	=> 'Login',
+	'NOT_USER'		=> 'Don`t have account?',
+	'LOGIN_ENTER'	=> 'Login to site',
 	'YOU_NAME'		=> 'You name',
-	'NOT_EXIST'		=> 'Do you have an account?',
-	'COPY'			=> 'Copyright',
+	'NOT_EXIST'		=> 'Do have account?',
+	'COPY'			=> 'Copyright <a href="https://github.com/2nlin3/phpMVCjsonDB">phpMVCjsonDB</a>',
 ];
