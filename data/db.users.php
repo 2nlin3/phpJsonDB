@@ -17,5 +17,17 @@
         "salt": "615a187807e63",
         "email": "test@localhost.com",
         "name": "\u0412\u0438\u0442\u0430\u043b\u044f"
+    },
+    "admin12": {
+        "password": "f818cb26a3137e35d4542066bdcd2d76",
+        "salt": "615a280a6df25",
+        "email": "vds911@local.loc",
+        "name": "Vital"
+    },
+    "User11": {
+        "password": "f3f28c9025e4fca30d2dd3b95d57159d",
+        "salt": "615a2a5e76a18",
+        "email": "vds911@loc.loc",
+        "name": "Vital"
     }
 }

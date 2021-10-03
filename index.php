@@ -3,7 +3,6 @@
 use app\core\Router;
 
 define('MY_APP', true);
-define('ROOT_PATH', __DIR__);
 
 spl_autoload_register(function($class)
 {

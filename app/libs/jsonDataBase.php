@@ -26,7 +26,7 @@ class jsonDataBase
 
 	public function __construct($dbName = 'users')
 	{
-		$this->fileName = ROOT_PATH . "/data/db.$dbName.php";
+		$this->fileName = "data/db.$dbName.php";
 		$this->handle = fopen($this->fileName, "r+");
 		$line = 0;
 		$file = '';

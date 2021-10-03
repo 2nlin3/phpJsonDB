@@ -1,7 +1,7 @@
 <div class="d-flex justify-content-center h-100">
 	<div class="card">
 		<div class="card-header">
-			<h3><?=$this->lang['INDEX']?></h3>
+			<h3><?=$this->lang['LINKS']?></h3>
 			<div class="d-flex justify-content-end social_icon">
 				<a href="https://www.facebook.com/manaogroup/"><span><i class="fab fa-facebook-square"></i></span></a>
 				<span><i class="fab fa-google-plus-square"></i></span>
@@ -9,7 +9,6 @@
 			</div>
 		</div>
 		<div class="card-body">
-			<h4 class="text-white"><?=$this->lang['LINKS']?></h4>
 			<a href="<?=$fn?>?page=register">
 				<?=$this->lang['RUN_REGISTER']?>
 			</a><br>
